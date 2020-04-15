@@ -2645,6 +2645,8 @@ in
 
   age = callPackage ../tools/security/age { };
 
+  badtouch = callPackage ../tools/security/badtouch { };
+
   brotli = callPackage ../tools/compression/brotli { };
 
   biosdevname = callPackage ../tools/networking/biosdevname { };
