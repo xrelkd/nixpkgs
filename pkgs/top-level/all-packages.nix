@@ -12661,8 +12661,6 @@ with pkgs;
 
   rset = callPackage ../tools/admin/rset { };
 
-  rshijack = callPackage ../tools/networking/rshijack { };
-
   rshim-user-space = callPackage ../tools/misc/rshim-user-space { };
 
   rsibreak = libsForQt5.callPackage ../applications/misc/rsibreak { };
