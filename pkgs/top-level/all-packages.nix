@@ -9256,8 +9256,6 @@ with pkgs;
 
   intel-media-sdk = callPackage ../development/libraries/intel-media-sdk { };
 
-  intermodal = callPackage ../tools/misc/intermodal { };
-
   internetarchive = with python3Packages; toPythonApplication internetarchive;
 
   invidious = callPackage ../servers/invidious {
