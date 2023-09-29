@@ -16924,8 +16924,6 @@ with pkgs;
 
   shmig = callPackage ../development/tools/database/shmig { };
 
-  sleek = callPackage ../development/tools/database/sleek { };
-
   smlfmt = callPackage ../development/tools/smlfmt { };
 
   # smlnjBootstrap should be redundant, now that smlnj works on Darwin natively
